@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+#   Author: Jnanendra Sarkar
+#
+################################################################
 
 import pandas as pd
 import numpy as np
@@ -13,8 +16,8 @@ from pyspark.sql.session import SparkSession
 sc = SparkContext('local')
 spark = SparkSession(sc)
 
-iFile = 'telecomdata.csv'
-oFile ='prediction.csv'
+iFile = 'sample.csv'
+oFile ='sample_output.csv'
 MAX_ITR = 100
 
 def minDistMatrix(DS, center, k):
