@@ -23,7 +23,7 @@ Usage:
 It is written and tested for Windows 7 OS. It should run in other environment also, but not tested. May be little bit changes are required as per demand of that OS. Please keep data file in same folder where source program is located. Data file is without any header.
 From command line following command should be executed.
 
-spark-submit kmeans.py
+spark-submit clusterCustomer.py
 
 
 Output:
